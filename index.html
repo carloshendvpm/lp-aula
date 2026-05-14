@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StreamFlix - Aula Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111827;
+      color: #f9fafb;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    main {
+      width: 100%;
+      max-width: 900px;
+      background: #1f2937;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      margin-top: 0;
+      color: #ef4444;
+      font-size: 40px;
+    }
+
+    p {
+      color: #d1d5db;
+      line-height: 1.6;
+      font-size: 18px;
+    }
+
+    .links {
+      display: grid;
+      gap: 16px;
+      margin-top: 32px;
+    }
+
+    a {
+      display: block;
+      padding: 18px 20px;
+      border-radius: 12px;
+      text-decoration: none;
+      color: white;
+      background: #374151;
+      border: 1px solid #4b5563;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    a:hover {
+      transform: translateY(-2px);
+      background: #4b5563;
+    }
+
+    strong {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 4px;
+    }
+
+    span {
+      color: #d1d5db;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>StreamFlix — Landing Page em Camadas</h1>
+
+    <p>
+      Este mini-projeto foi criado para uma miniaula sobre desenvolvimento de uma landing page responsiva
+      com HTML, CSS e JavaScript. A ideia é começar mostrando a versão pronta e depois voltar nas etapas
+      de construção.
+    </p>
+
+    <div class="links">
+      <a href="./03-completa-js.html">
+        <strong>1. Mostrar primeiro: versão completa</strong>
+        <span>HTML + CSS + JavaScript funcionando.</span>
+      </a>
+
+      <a href="./01-apenas-html.html">
+        <strong>2. Depois: apenas HTML</strong>
+        <span>A página existe, mas ainda está crua visualmente.</span>
+      </a>
+
+      <a href="./02-html-css.html">
+        <strong>3. Depois: HTML + CSS</strong>
+        <span>A página fica bonita e responsiva, mas sem interação real.</span>
+      </a>
+
+      <a href="./03-completa-js.html">
+        <strong>4. Final: HTML + CSS + JS</strong>
+        <span>Adicionamos comportamento ao formulário.</span>
+      </a>
+    </div>
+  </main>
+</body>
+</html>
